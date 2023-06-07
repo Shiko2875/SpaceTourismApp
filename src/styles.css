@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+:root {
+    --main-font: #D0D6F9;
+    --heading-font: #FFFFFF;
+}
+
+*{  
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: var(--heading-font);
+}
+
+.h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: var(--heading-font);
+}
+
+.h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    color: var(--heading-font);
+}
+
+.h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: var(--heading-font);
+}
+
+.h4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: var(--heading-font);
+}
+
+.h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    color: var(--main-font);
+}
+
+.sh1 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: var(--heading-font);
+}
+
+.sh2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    color: var(--heading-font);
+}
+
+.nav-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: var(--heading-font);
+}
+
