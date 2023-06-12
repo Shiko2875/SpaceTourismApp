@@ -2,5 +2,54 @@
     width: 1440px;
     height: 900px;
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url(../../assets/home/background-home-desktop.jpg);
+}
+
+.content {
+    width: 1110px;
+    height: 382px;
+    margin-left: 165px;
+    margin-bottom: 131px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text {
+    width: 450px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h4 {
+    color: #0B0D17
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.alt-text {
+    line-height: 32px;
+}
+
+.explore {
+    width: 274px;
+    height: 274px;
+    border-radius: 100%;
+    border: none;
+    transition: outline 500ms ease;
+}
+
+button:hover {
+    cursor:pointer;
+    outline: 88px solid;
+    outline-color: rgb(255, 255, 255, 0.1);
 }
