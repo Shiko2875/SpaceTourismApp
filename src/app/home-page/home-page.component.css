@@ -1,0 +1,6 @@
+.container {
+    width: 1440px;
+    height: 900px;
+    padding-top: 40px;
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+}
