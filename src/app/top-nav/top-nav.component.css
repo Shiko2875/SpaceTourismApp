@@ -41,33 +41,25 @@ img {
 }
 
 a {
-    height: 96px;
+    height: 93px;
     margin-left: 48px;
     display: inline-flex;
     align-items: center;
     position: relative;
+    text-decoration: none;
+    color: white;
+    transition: 100ms ease;
+    cursor: pointer;
 }
 
 a:first-child {
     margin-left: 123px;
 }
 
-a:hover{
-    cursor: pointer;
+.active {
+    border-bottom: 3px solid white;
 }
 
-a::before {
-    transition: 150ms;
-    height: 3px;
-    content: "";
-    position: absolute;
-    background-color: white;
-    height: 0%;
-    width: 100%;
-    bottom: 0px;
-    opacity: 0.5;
+a:hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
-  
-a:hover::before {
-    height: 3px;
-  }
