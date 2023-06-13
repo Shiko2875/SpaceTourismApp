@@ -45,9 +45,7 @@ a {
     margin-left: 48px;
     display: inline-flex;
     align-items: center;
-    position: relative;
     text-decoration: none;
-    color: white;
     transition: 100ms ease;
     cursor: pointer;
 }

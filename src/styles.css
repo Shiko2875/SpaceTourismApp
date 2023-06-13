@@ -23,6 +23,7 @@
 .h2 {
     font-family: 'Bellefair', serif;
     font-size: 100px;
+    line-height: 115px;
     color: var(--heading-font);
 }
 
@@ -42,6 +43,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     letter-spacing: 4.75px;
+    line-height: 34px;
     color: var(--main-font);
 }
 

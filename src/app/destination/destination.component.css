@@ -1,8 +1,98 @@
 .container {
     width: 1440px;
     height: 900px;
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
+}
+
+.content-header{
+    width: 382px;
+    height: 34px;
+    display: inline-flex;
+    margin-top: 76px;
+    margin-left: 166.5px;
+    justify-content: space-between;
+}
+
+.numbers {
+    opacity: 0.25;
+}
+
+.info-container {
+    width: 1047px;
+    height: 472px;
+    margin-left: 230px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.information {
+    width: 445px;
+    height: 472px;
+}
+
+.destination-nav {
+    width: 285px;
+    height: 34px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #D0D6F9;
+    height: 34px;
+    cursor: pointer;
+    transition: 100ms ease;
+}
+
+#active {
+    color: #FFFFFF;
+    border-bottom: 3px solid white;
+}
+
+a:hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.destination-title {
+    margin-top: 37px;
+    margin-bottom: 14px;
+}
+
+.alt-text {
+    line-height: 32px;
+}
+
+.sh2 {
+    color: #D0D6F9;
+}
+
+.line {
+    margin: 54px 0px 0px 0px;
+    width: 444px;
+    height: 1px;
+    border: none;
+    background: #383B4B;
+}
+
+.travel {
+    margin-top: 28px;
+    width: 365px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-info {
+    width: 160px;
+    height: 61px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(../../assets/destination/background-destination-desktop.jpg);
 }
