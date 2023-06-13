@@ -43,6 +43,7 @@ p{
     width: 274px;
     height: 274px;
     border-radius: 100%;
+    outline: rgb(255, 255, 255, 0.1);
     border: none;
     transition: outline 500ms ease;
 }
