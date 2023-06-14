@@ -12,6 +12,9 @@
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     color: var(--heading-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .h1 {
@@ -30,12 +33,14 @@
 .h3 {
     font-family: 'Bellefair', serif;
     font-size: 56px;
+    line-height: 64px;
     color: var(--heading-font);
 }
 
 .h4 {
     font-family: 'Bellefair', serif;
     font-size: 32px;
+    line-height: 37px;
     color: var(--heading-font);
 }
 

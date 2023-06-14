@@ -1,8 +1,83 @@
 .container {
     width: 1440px;
     height: 900px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    overflow: hidden;
     background-image: url(../../assets/crew/background-crew-desktop.jpg);
+}
+
+.content-header{
+    width: 286px;
+    height: 34px;
+    display: inline-flex;
+    margin-top: 76px;
+    margin-left: 166.5px;
+    justify-content: space-between;
+}
+
+.numbers {
+    opacity: 0.25;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.h4 {
+    opacity: 0.5;
+}
+
+.h3 {
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.alt-text {
+    width: 444px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.information {
+    height: auto;
+    margin-left: 166.5px;
+    display: flex;
+}
+
+.info {
+    width: 614px;
+    height: 406px;
+    margin-top: 154px;
+    margin-right: 15px;
+}
+
+.crew-navigation {
+    width: 132px;
+    height: 15px;
+    margin-top: 120px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+input {
+    display: none;
+}
+
+.nav-btn {
+    width: 15px;
+    height: 15px;
+    background: rgba(255,255,255,0.17);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.nav-btn.active {
+    background: rgba(255,255,255,1.0);
+}
+
+.nav-btn:hover {
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+    transition: 1s;
 }

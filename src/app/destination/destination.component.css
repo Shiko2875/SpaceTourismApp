@@ -17,6 +17,11 @@
     opacity: 0.25;
 }
 
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
 .info-container {
     width: 1047px;
     height: 472px;
@@ -55,10 +60,7 @@ a:hover{
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-p{
-    padding: 0px;
-    margin: 0px;
-}
+
 
 .destination-title {
     margin-top: 37px;
