@@ -10,12 +10,13 @@ export class DestinationComponent implements OnInit {
 
   constructor(private getSpace: SpaceService) { }
 
+  activeIndex = 0;
   destinationData: any = [];
   data: any;
 
   ngOnInit(): void {
     this.getDesinations()
-    this.displayData()
+    this.changeActiveState()
   }
 
   getDesinations() {
@@ -27,7 +28,7 @@ export class DestinationComponent implements OnInit {
     })
   }
 
-  displayData() {
+  changeActiveState() {
     const btns = document.querySelectorAll('.btn');
     btns.forEach(element => {
       element.addEventListener('click', () => {
@@ -36,6 +37,9 @@ export class DestinationComponent implements OnInit {
       });
     });
   }
-  
+
+  changeTemplate(index: number): void {
+    this.activeIndex = index;
+  }
 
 }

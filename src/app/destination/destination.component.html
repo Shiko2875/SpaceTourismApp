@@ -7,26 +7,26 @@
         </div>
         <div class="info-container">
             <div class="img">
-                <img src="./assets/destination/image-moon.png" alt="moon">
+                <img [src]="destinationData[activeIndex].images.png" alt="image">
             </div>
             <div class="information">
                 <div class="destination-nav">
-                    <a class="nav-text btn">MOON</a>
-                    <a class="nav-text btn">MARS</a>
-                    <a class="nav-text btn activ">EUROPA</a>
-                    <a class="nav-text btn">TITAN</a>
+                    <a class="nav-text btn activ" (click)="changeTemplate(0)">MOON</a>
+                    <a class="nav-text btn" (click)="changeTemplate(1)">MARS</a>
+                    <a class="nav-text btn" (click)="changeTemplate(2)">EUROPA</a>
+                    <a class="nav-text btn" (click)="changeTemplate(3)">TITAN</a>
                 </div>
-                <p class="h2 destination-title">MOON</p>
-                <p class="alt-text">See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                <p class="h2 destination-title">{{destinationData[activeIndex].name}}</p>
+                <p class="alt-text">{{destinationData[activeIndex].description}}</p>
                 <hr class="line">
                 <div class="travel">
                     <div class="travel-info">
                         <p class="sh2">AVG. DISTANCE</p>
-                        <p class="sh1">383,000 KM</p>
+                        <p class="sh1">{{destinationData[activeIndex].distance}}</p>
                     </div>
                     <div class="travel-info">
                         <p class="sh2">EST. TRAVEL TIME</p>
-                        <p class="sh1">3 DAYS</p>
+                        <p class="sh1">{{destinationData[activeIndex].travel}}</p>
                     </div>
                 </div>
             </div>

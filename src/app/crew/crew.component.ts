@@ -10,12 +10,13 @@ export class CrewComponent implements OnInit {
 
   constructor(private getSpace: SpaceService) { }
 
+  activeIndex = 0;
   crewData: any = [];
   data: any;
 
   ngOnInit(): void {
     this.getCrew()
-    this.changeActivState();
+    this.changeActiveState();
   }
 
   getCrew() {
@@ -27,7 +28,7 @@ export class CrewComponent implements OnInit {
     })
   }
 
-  changeActivState() {
+  changeActiveState() {
     const btns = document.querySelectorAll('.nav-btn');
     btns.forEach(element => {
       element.addEventListener('click', () => {
@@ -35,5 +36,9 @@ export class CrewComponent implements OnInit {
         element.classList.add('activ');
       });
     });
+  }
+
+  changeTemplate(index: number): void {
+    this.activeIndex = index;
   }
 }

@@ -13,6 +13,10 @@
     justify-content: space-between;
 }
 
+.sh1, .h2 {
+    text-transform: uppercase;
+}
+
 .numbers {
     opacity: 0.25;
 }
@@ -59,8 +63,6 @@ a {
 a:hover{
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
-
-
 
 .destination-title {
     margin-top: 37px;

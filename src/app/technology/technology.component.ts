@@ -10,12 +10,13 @@ export class TechnologyComponent implements OnInit {
 
   constructor(private getSpace: SpaceService) { }
 
+  activeIndex = 0;
   technologyData: any = [];
   data: any;
 
   ngOnInit(): void {
     this.getTechnology()
-    this.changeActivState()
+    this.changeActiveState()
   }
 
   getTechnology() {
@@ -27,7 +28,7 @@ export class TechnologyComponent implements OnInit {
     })
   }
 
-  changeActivState() {
+  changeActiveState() {
     const btns = document.querySelectorAll('.btn');
     btns.forEach(element => {
       element.addEventListener('click', () => {
@@ -35,5 +36,9 @@ export class TechnologyComponent implements OnInit {
         element.classList.add('activ');
       });
     });
+  }
+
+  changeTemplate(index: number): void {
+    this.activeIndex = index;
   }
 }

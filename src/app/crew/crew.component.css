@@ -25,11 +25,13 @@ p{
 
 .h4 {
     opacity: 0.5;
+    text-transform: uppercase;
 }
 
 .h3 {
     margin-top: 15px;
     margin-bottom: 27px;
+    text-transform: uppercase;
 }
 
 .alt-text {
