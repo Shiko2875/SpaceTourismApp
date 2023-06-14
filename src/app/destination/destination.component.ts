@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { SpaceService } from '../space.service';
-import { Destinations } from '../classes/destinations';
 
 @Component({
   selector: 'app-destination',
@@ -9,16 +8,14 @@ import { Destinations } from '../classes/destinations';
 })
 export class DestinationComponent implements OnInit {
 
-
   constructor(private getSpace: SpaceService) { }
 
   destinationData: any = [];
   data: any;
-  imageUrl!: string;
 
   ngOnInit(): void {
     this.getDesinations()
-    this.changeActivState()
+    this.displayData()
   }
 
   getDesinations() {
@@ -30,7 +27,7 @@ export class DestinationComponent implements OnInit {
     })
   }
 
-  changeActivState() {
+  displayData() {
     const btns = document.querySelectorAll('.btn');
     btns.forEach(element => {
       element.addEventListener('click', () => {
