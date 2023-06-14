@@ -15,6 +15,7 @@ export class TechnologyComponent implements OnInit {
 
   ngOnInit(): void {
     this.getTechnology()
+    this.changeActivState()
   }
 
   getTechnology() {
@@ -24,5 +25,15 @@ export class TechnologyComponent implements OnInit {
       })
       console.log(this.technologyData, "Getting All Technology Data")
     })
+  }
+
+  changeActivState() {
+    const btns = document.querySelectorAll('.btn');
+    btns.forEach(element => {
+      element.addEventListener('click', () => {
+        document.querySelector('.activ')?.classList.remove('activ');
+        element.classList.add('activ');
+      });
+    });
   }
 }

@@ -15,6 +15,7 @@ export class CrewComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCrew()
+    this.changeActivState();
   }
 
   getCrew() {
@@ -24,5 +25,15 @@ export class CrewComponent implements OnInit {
       })
       console.log(this.crewData, "Getting All Crew Data")
     })
+  }
+
+  changeActivState() {
+    const btns = document.querySelectorAll('.nav-btn');
+    btns.forEach(element => {
+      element.addEventListener('click', () => {
+        document.querySelector('.activ')?.classList.remove('activ');
+        element.classList.add('activ');
+      });
+    });
   }
 }

@@ -72,7 +72,7 @@ input {
     transition: 1s;
 }
 
-.nav-btn.active {
+.nav-btn.activ {
     background: rgba(255,255,255,1.0);
 }
 
