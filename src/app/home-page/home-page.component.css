@@ -53,3 +53,95 @@ button:hover {
     outline: 88px solid;
     outline-color: rgb(255, 255, 255, 0.1);
 }
+
+@media screen and (max-width: 773px){
+    .container {
+        width: 768px;
+        height: 1024px;
+        background: url(../../assets/home/background-home-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .content {
+        width: 450px;
+        height: 848px;
+        margin-top: 108px;
+        margin-left: 159px;
+        margin-bottom: 90px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .explore {
+        width: 242px;
+        height: 242px;
+        border-radius: 100%;
+        outline: rgb(255, 255, 255, 0.1);
+        border: none;
+        transition: outline 500ms ease;
+    }
+
+    button:hover {
+        outline: 68px solid;
+        outline-color: rgb(255, 255, 255, 0.1);
+    }
+}
+
+@media screen and (max-width: 380px){
+    .container {
+        width: 375px;
+        height: 667px;
+        background: url(../../assets/home/background-home-mobile.jpg);
+        background-size: cover;
+    }
+
+    .content {
+        width: 327px;
+        height: 507px;
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-bottom: 48px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text {
+        width: 327px;
+        height: 276px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .h5{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .h1 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .alt-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .explore {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        outline: rgb(255, 255, 255, 0.1);
+        border: none;
+        transition: outline 500ms ease;
+    }
+
+    button:hover {
+        outline: 40px solid;
+        outline-color: rgb(255, 255, 255, 0.1);
+    }
+}

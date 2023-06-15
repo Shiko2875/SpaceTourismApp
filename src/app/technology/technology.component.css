@@ -84,3 +84,173 @@ p{
     background: white;
     border: 1px solid #FFFFFF;
 }
+
+@media screen and (max-width: 773px) {
+    .container {
+        width: 768px;
+        height: 1024px;
+        background: url(../../assets/technology/background-technology-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .content-header{
+        width: 217px;
+        height: 24px;
+        display: inline-flex;
+        margin-top: 40px;
+        margin-left: 39px;
+        justify-content: space-between;
+    }
+
+    .info-container {
+        width: 768px;
+        height: 707px;
+        margin-top: 60px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tech-navigation {
+        width: 210px;
+        height: 60px;
+        margin-top: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info {
+        width: 458px;
+        margin-top: 44px;
+        margin-right: 0px;
+        margin-left: 0px;
+        order: -1;
+    }
+
+    .btn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .h5 {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+
+    .h3 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .alt-text {
+        width: 458px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .img {
+        margin-top: 60px;
+        width: 768px;
+        height: 310px;
+    }
+
+    img {
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 375px;
+        height: 710px;
+        background: url(../../assets/technology/background-technology-mobile.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .content-header{
+        width: 176px;
+        height: 19px;
+        display: inline-flex;
+        margin-top: 24px;
+        margin-left: 99.5px;
+        justify-content: space-between;
+    }
+
+    .info-container {
+        width: 375px;
+        height: 490px;
+        margin-top: 32px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tech-navigation {
+        width: 152px;
+        height: 40px;
+        margin-top: 34px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info {
+        width: 327px;
+        margin-top: 26px;
+        margin-right: 0px;
+        margin-left: 0px;
+        order: -1;
+    }
+
+    .btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .h5 {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .h3 {
+        margin-top: 9px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .h4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .alt-text {
+        width: 327px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .img {
+        margin-top: 60px;
+        width: 375px;
+        height: 170px;
+    }
+
+    img {
+        max-height: 100%;
+    }
+}

@@ -100,3 +100,175 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 773px){
+    .container {
+        width: 768px;
+        height: 1024px;
+        background: url(../../assets/destination/background-destination-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .content-header{
+        width: 272px;
+        height: 24px;
+        display: inline-flex;
+        margin-top: 40px;
+        margin-left: 39px;
+        justify-content: space-between;
+    }
+
+    .info-container {
+        width: 573px;
+        height: 742px;
+        margin-left: 97px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dest-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .information {
+        width: 573px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .destination-nav {
+        margin-top: 53px;
+        width: 285px;
+        height: 34px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .h2 {
+        font-size: 80px;
+        line-height: 92px;
+    }
+
+    .alt-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .line {
+        width: 573px;
+    }
+
+    .h5 {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+
+    .sh2 {
+        font-size: 14px;
+        letter-spacing: 2.3625;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .container {
+        width: 375px;
+        height: 850px;
+        background: url(../../assets/destination/background-destination-mobile.jpg);
+    }
+
+    .content-header{
+        width: 221px;
+        height: 19px;
+        display: inline-flex;
+        margin-top: 24px;
+        margin-left: 77px;
+        justify-content: space-between;
+    }
+
+    .info-container {
+        width: 327px;
+        height: 653px;
+        margin-left: 24px;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .travel {
+        height: 154px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dest-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .information {
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .destination-nav {
+        margin-top: 26px;
+        width: 237.5px;
+        height: 28px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .nav-text{
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+    }
+
+    a {
+        height: 25px;
+    }
+
+    .h2 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .destination-title {
+        margin-top: 20px;
+        margin-bottom: 1px;
+    }
+
+    .alt-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .line {
+        margin-top: 32px;
+        width: 327px;
+    }
+
+    .h5 {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .sh2 {
+        font-size: 14px;
+        letter-spacing: 2.3625;
+        line-height: 17px;
+    }
+}

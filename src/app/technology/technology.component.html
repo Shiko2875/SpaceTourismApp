@@ -16,9 +16,10 @@
                 <p class="h3">{{technologyData[activeIndex].name}}</p>
                 <p class="alt-text">{{technologyData[activeIndex].description}}</p>
             </div>
-            <div class="img">
+            <picture class="img">
+                <source media="(max-width: 773px)" srcset={{technologyData[activeIndex].images.landscape}}>
                 <img [src]="technologyData[activeIndex].images.portrait" alt="image">
-            </div>
+            </picture>
         </div>
     </div>
 </div>
